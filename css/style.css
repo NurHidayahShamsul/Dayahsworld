@@ -1,0 +1,112 @@
+body
+{
+    
+    background-image: url("../images/background7.jpeg");
+}
+a:link 
+    { 
+        display: inline-block;
+        margin: 0px 20px;
+        text-decoration: none;
+        background-color: #ddbea9;
+        padding: 15px;
+
+    }
+
+ a:visited
+    {
+        color: #fff1e6;
+        background-color: #ddbea9;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+a:hover
+    {
+        color: rgb(104, 70, 93);
+        background-color: tan;
+        text-decoration: underline;
+
+    }
+
+a:active
+    {
+        color: rgba(247, 210, 210, 0.904);
+        background-color: rgb(245, 112, 112);
+        text-decoration: underline;
+    }
+
+nav
+    {
+        padding-left: 60px;
+    }
+
+.content h1
+    {
+        font-size: 60px;
+        font-weight: 100px;
+        margin-top: 24px;
+        margin-bottom: 30px;
+        color: #8e9aaf;
+        font-family: URW Chancery L, cursive;
+    }
+
+.content p
+    {
+        font-size: 20px;
+        color: #c9ada7;
+    }
+
+.content
+    {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+.content .btn
+    {
+        display: inline-block;
+        background: linear-gradient(45deg, #e5989b, #b5838d);
+        border-radius: 6px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #fff;
+        box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    }
+
+.arrow-icons
+    {
+        margin-top: 40px;
+        display: flex;
+    
+    }
+
+.arrow-icons img
+    {
+        width: 40px;
+        margin-right: 25px;
+    }
+.feature-img
+    {
+        height: 70%;
+        position: fixed;
+        bottom: 10%;
+        right: 8px;
+        
+    }
+
+hr
+    {
+        height: 3px;
+        background-color: e3d5ca;
+        border: none;
+    }
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel 
+    {
+    background-color: fcd5ce;
+    color: rgb(15, 228, 164);
+     }
+

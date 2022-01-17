@@ -1,0 +1,75 @@
+body 
+    {
+    background-image: url("../images/contact-background3.jpeg");
+    font-family: serif;
+    color: #313336;
+   }
+
+a:link 
+    { 
+        display: inline-block;
+        margin: 0px 30px;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 17px;     
+    }
+
+ a:visited
+    {
+        color: rgb(145, 139, 139);
+        background-color: #F3DAD9;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+a:hover
+    {
+        color: rgb(104, 70, 93);
+        background-color: #ece4db;
+        text-decoration: underline;
+
+    }
+
+a:active
+    {
+        color: rgba(247, 210, 210, 0.904);
+        background-color: rgb(245, 112, 112);
+        text-decoration: underline;
+    }
+
+a:active
+    {
+        margin-bottom: 50px;
+    }
+
+.social-icons
+    {
+        width: 1500px;
+        text-align: center;
+        opacity: .4;
+        
+    }
+
+.social-icons img
+    {
+        height: 50px;
+        margin: 0 14px;
+    }
+
+
+.content h1
+    {
+        font-size: 30px;
+        font-weight: 100px;
+        margin-top: 24px;
+        margin-bottom: 30px;
+        color: #313336;
+        font-family: Courier, monospace;
+    }
+
+.content p
+    {
+        font-size: 20px;
+        color: #6c757d;
+    }
+

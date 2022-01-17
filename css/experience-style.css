@@ -1,0 +1,170 @@
+body
+    {
+    background-image: url("../images/wallpaper4.jpeg");
+    
+   }
+
+a:link 
+    { 
+        display: inline-block;
+        margin: 0px 30px;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 17px; 
+        font-family: American Typewriter, serif;    
+    }
+
+ a:visited
+    {
+        color: #3d3d3d;
+        background-color: #F3DAD9;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+a:hover
+    {
+        color: #ab6645;
+        background-color: #ece4db;
+        text-decoration: underline;
+
+    }
+
+a:active
+    {
+        color: rgba(247, 210, 210, 0.904);
+        background-color: #bfb6aa;
+        text-decoration: underline;
+    }
+
+a:active
+    {
+        margin-bottom: 50px;
+    }
+
+.title
+    {
+        font-family: Times, Times New Roman, serif;
+        font-size: 20pt;
+        position: fixed;
+        left: 20;
+        top: 20;
+        position: absolute;
+    }
+
+.llinks
+    {
+        
+        right: 150;
+        top: 80;
+        position: absolute;
+    }
+
+.letter
+    {
+        height: 60px;
+        position: relative;
+        bottom: -20%;
+        right: 1px;
+        left: 5px;
+    }
+
+.nike-img
+    {
+        position: relative;
+        text-align: left;
+        top: -27%;
+        margin-left: 3%;
+        margin-top: -1%; 
+        top: 770px;
+        height: 370px;
+        width: 470px;
+    }
+
+.nike
+    {
+        font-size: 20px;
+        position: relative;
+        top: 55%;
+        bottom: -50%;
+        margin-left: 2%;
+        margin-top: -1%;
+        text-align: left;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%; 
+        left: 550px;
+    }
+
+.bn-img
+    {
+        position: relative;
+        text-align: right;
+        top: 550px;
+        margin-left: 66%;
+        height: 450px;
+        width: 450px;
+    }
+
+.bn
+    {
+        font-size: 20px;
+        position: relative;
+        top: 6%;
+        bottom: 40%;
+        margin-left: -480px;
+        margin-top: -1%;
+        text-align: left;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%; 
+        left: 550px;
+    }
+
+.cok-img
+    {
+        position: relative;
+        text-align: left;
+        margin-left: 3%;
+        top: 10%; 
+        height: 470px;
+        width: 470px;
+    }
+
+.cok
+    {
+        font-size: 20px;
+        position: relative;
+        top: -50%;
+        bottom: -50%;
+        margin-left: 2%;
+        text-align: left;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%; 
+        left: 550px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

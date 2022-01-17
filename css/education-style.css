@@ -1,0 +1,175 @@
+body
+    {
+    background-image: url("../images/background-purple.jpg");
+    
+   }
+
+   a:link 
+    { 
+        display: inline-block;
+        margin: 0px 20px;
+        text-decoration: none;
+        padding: 15px;
+
+    }
+
+ a:visited
+    {
+        color: #12142b;
+        background-color: none;
+        text-decoration: none;
+        padding: 15px;
+        font-family:  "futura-pt",sans-serif;
+    }
+
+a:hover
+    {
+        color: rgb(156, 156, 156);
+        background-color: none;
+        text-decoration: none;
+        font-family:  "futura-pt",sans-serif;
+
+    }
+
+a:active
+    {
+        color: rgba(247, 210, 210, 0.904);
+        background-color: rgb(245, 112, 112);
+        text-decoration: underline;
+    }
+
+.yuhua-img
+    {
+        position: relative;
+        text-align: left;
+        top: 150px;
+        margin-left: 3%;
+        height: 500px;
+        width: 550px;
+    }
+
+.yuhua
+    {
+        font-size: 20px;
+        position: relative;
+        top: -230px;
+        margin-left: 5%;
+        text-align: left;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%; 
+        left: 550px;
+    }
+
+.smktj2-img
+    {
+        position: relative;
+        text-align: right;
+        top: 10px;
+        margin-left: 61%;
+        height: 450px;
+        width: 540px;
+    }
+
+.tj2
+    {
+        font-size: 20px;
+        position: relative;
+        top: -50%;
+        bottom: 40%;
+        margin-left: -500px;
+        text-align: left;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%; 
+        left: 550px;
+    }
+
+.rembau-img
+    {
+        position: relative;
+        text-align: left;
+        margin-left: 3%;
+        top: -150px; 
+        height: 500px;
+        width: 550px;
+    }
+
+.rembau
+    {
+        font-size: 20px;
+        position: relative;
+        top: -80%;
+        bottom: -50%;
+        margin-left: 5%;
+        text-align: left;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%; 
+        left: 550px;
+    }
+
+.filter
+    {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 2500px;
+        z-index: 1;
+        opacity: .7;
+    
+        
+    }
+
+.filter table
+    {
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,50%);
+        width: 60%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border-radius: 12px 12px 0 0;
+        overflow: hidden;
+        box-shadow: 0 2px 12px rgba(32,32,32,.3);
+        background: #fafafa;
+        text-align: center;
+    }
+
+.filter th,td
+    {
+        padding: 12px 15px;
+    }
+
+.filter th
+    {
+        background: #ba68c8;
+        color: #fafafa;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.filter td
+    {
+         font-family: 'Open Sans', sans-serif;
+    }
+
+.filter tr:nth-child(odd)
+    {
+        background-color: #eeeeee;
+    }

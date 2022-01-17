@@ -1,0 +1,212 @@
+body
+{
+    background-image: url("../images/bio-background.jpeg");
+}
+
+.data
+{
+    font-family: Snell Roundhand, cursive;
+    font-size: 25pt;
+    position: fixed;
+    left: 20;
+    top: 0;
+    position: absolute;
+}
+
+.inks
+{
+    
+    right: 0;
+    top: 70;
+    position: absolute;
+}
+
+a:link 
+    { 
+        display: inline-block;
+        margin: 0px 20px;
+        text-decoration: none;
+        padding: 15px;
+
+    }
+
+ a:visited
+    {
+        color: #12142b;
+        background-color: none;
+        text-decoration: none;
+        padding: 15px;
+        font-family:  "futura-pt",sans-serif;
+    }
+
+a:hover
+    {
+        color: rgb(156, 156, 156);
+        background-color: none;
+        text-decoration: none;
+        font-family:  "futura-pt",sans-serif;
+
+    }
+
+a:active
+    {
+        color: rgba(247, 210, 210, 0.904);
+        background-color: rgb(245, 112, 112);
+        text-decoration: underline;
+    }
+
+.abt
+    {
+    color: #a5a58d;
+    font-size: 75px;
+    text-align: left;
+    font-family: Poynter Display Semibold;
+    font-weight: 400;
+    }
+
+.megif
+    {
+        height: 60%;
+        position: relative;
+        bottom: 10%;
+        right: 1px;
+        left: 5px;
+    }
+
+.name
+    {
+        background-color: #fec5bb;
+        width: 370px;
+        padding: 50px;
+        margin: 20px;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 10%;
+        font-family: Stencil Std, fantasy;
+        width: 40%;
+        height: 50%;
+        box-sizing: border-box;
+    }
+
+.old
+    {
+        height: 70%;
+        position: relative;
+        top: -50%;
+        bottom: -50%;
+        left: 520px;
+        text-align: justify;
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 40%;
+        height: 50%;
+        line-height: 2.0;
+        font-size: 18px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+.work
+    {
+        font-size: 20px;
+        position: relative;
+        text-align: left;
+        top: -50%;
+        bottom: -50%;
+        margin-left: 2%;
+        margin-top: -1%;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 20px;
+        font-family: Sentinel Book;
+        font-weight: 400;
+        font-style: normal;
+        width: 40%;
+        height: 70%;
+        left: 450px;
+    }
+
+.gym
+    {
+        position: relative;
+        text-align: left;
+        top: -75%;
+        bottom: 70%;
+        margin-left: 8%;
+        margin-top: -1%; 
+    }
+    
+.eat
+    {
+        height: 70%;
+        position: relative;
+        top: -70%;
+        bottom: -50%;
+        left: 520px;
+        text-align: center;
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 40%;
+        height: 50%;
+        line-height: 2.0;
+        font-size: 17px;
+        font-family: Andale Mono, monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+.cafe
+    {
+        background-color: #e7d8c9;
+        width: 100px;
+        padding: 10px;
+        margin: 400px;
+        margin-left: 10%;
+        margin-top: -53%;
+        width: 40%;
+        height: 50%;
+        box-sizing: content-box;
+        top: 100px;
+    }
+.map
+    {
+        position: relative;
+        text-align: left;
+        top: -27%;
+        margin-left: 3%;
+        margin-top: -1%;
+    }
+
+.fashion
+    {
+        height: 70%;
+        position: relative;
+        top: -106%;
+        left: 350px;
+        text-align: justify;
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 40%;
+        height: 50%;
+        line-height: 2.0;
+        font-size: 17px;
+        font-family: OCR A Std, monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+::marker 
+    { 
+        color: #9381ff;
+      }
+
+.mapping 
+    {
+        position: relative;
+        text-align: right;
+        top: -90%;
+        margin-right: 3%;
+    }
+    
